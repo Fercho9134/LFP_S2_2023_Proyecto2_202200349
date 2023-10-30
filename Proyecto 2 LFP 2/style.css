@@ -1,0 +1,69 @@
+/* Reset de estilos para eliminar el margen predeterminado del cuerpo y los márgenes de la tabla */
+body, table {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh; /* Asegura que el cuerpo y la tabla ocupen toda la altura de la ventana */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
+  /* Estilos generales de la tabla */
+  table {
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos de los encabezados de la tabla */
+  th {
+    background-color: #0073e6;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Estilos para filas impares (alternas) */
+  tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para celdas */
+  td {
+    padding: 8px;
+  }
+  
+  /* Alinear el texto de las celdas a la izquierda */
+  td, th {
+    text-align: left;
+  }
+  
+  /* Añadir un borde a la tabla y a las celdas */
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  /* Estilo para resaltar el primer encabezado */
+  th:first-child {
+    background-color: #ff6600;
+  }
+  
+  /* Estilos adicionales para resaltar las filas pares e impares */
+  tr:nth-child(even) {
+    background-color: #ddd;
+  }
+  
+  /* Estilo para resaltar celdas con un valor mayor o igual a 15 en "precio_compra" */
+  td:nth-child(3):not(.header):not(:empty):not([rowspan]):not([colspan]):not(.not-to-highlight) {
+    background-color: #FFA07A;
+  }
+  
+  /* Estilo para resaltar celdas con un valor mayor o igual a 18 en "precio_venta" */
+  td:nth-child(4):not(.header):not(:empty):not([rowspan]):not([colspan]):not(.not-to-highlight) {
+    background-color: #FF6347;
+  }
+  

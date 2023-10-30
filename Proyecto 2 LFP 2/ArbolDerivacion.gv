@@ -1,0 +1,320 @@
+// Arbol de derivacion
+digraph {
+	parent [label="Arbol de derivacion"]
+	Clave_0 [label="Clave: claves"]
+	parent -> Clave_0
+	Igual_0 [label=Igual]
+	Clave_0 -> Igual_0
+	CorcheteAbierto_0 [label="Corchete Abierto"]
+	Igual_0 -> CorcheteAbierto_0
+	ComillasI_0 [label=Comillas]
+	CorcheteAbierto_0 -> ComillasI_0
+	Cadena_0 [label="Cadena: codigo"]
+	CorcheteAbierto_0 -> Cadena_0
+	ComillasF_1 [label=Comillas]
+	Cadena_0 -> ComillasF_1
+	Coma_1 [label=Coma]
+	ComillasF_1 -> Coma_1
+	ComillasI_1 [label=Comillas]
+	CorcheteAbierto_0 -> ComillasI_1
+	Cadena_1 [label="Cadena: producto"]
+	CorcheteAbierto_0 -> Cadena_1
+	ComillasF_2 [label=Comillas]
+	Cadena_1 -> ComillasF_2
+	Coma_2 [label=Coma]
+	ComillasF_2 -> Coma_2
+	ComillasI_2 [label=Comillas]
+	CorcheteAbierto_0 -> ComillasI_2
+	Cadena_2 [label="Cadena: precio_compra"]
+	CorcheteAbierto_0 -> Cadena_2
+	ComillasF_3 [label=Comillas]
+	Cadena_2 -> ComillasF_3
+	Coma_3 [label=Coma]
+	ComillasF_3 -> Coma_3
+	ComillasI_3 [label=Comillas]
+	CorcheteAbierto_0 -> ComillasI_3
+	Cadena_3 [label="Cadena: precio_venta"]
+	CorcheteAbierto_0 -> Cadena_3
+	ComillasF_4 [label=Comillas]
+	Cadena_3 -> ComillasF_4
+	Coma_4 [label=Coma]
+	ComillasF_4 -> Coma_4
+	ComillasI_4 [label=Comillas]
+	CorcheteAbierto_0 -> ComillasI_4
+	Cadena_4 [label="Cadena: stock"]
+	CorcheteAbierto_0 -> Cadena_4
+	ComillasF_5 [label=Comillas]
+	Cadena_4 -> ComillasF_5
+	CorcheteCerrado_5 [label="Corchete Cerrado"]
+	ComillasF_5 -> CorcheteCerrado_5
+	RegistrosR_0 [label=Registros]
+	parent -> RegistrosR_0
+	IgualR_0 [label=Igual]
+	RegistrosR_0 -> IgualR_0
+	CorcheteAbiertoR_0 [label="Corchete Abierto"]
+	IgualR_0 -> CorcheteAbiertoR_0
+	LlaveAbiertaR_0 [label="Llave Abierta"]
+	CorcheteAbiertoR_0 -> LlaveAbiertaR_0
+	NumeroR_10 [label="Numero: 1"]
+	LlaveAbiertaR_0 -> NumeroR_10
+	ComaR_10 [label=Coma]
+	NumeroR_10 -> ComaR_10
+	ComillasIR_11 [label=Comillas]
+	LlaveAbiertaR_0 -> ComillasIR_11
+	CadenaR_11 [label="Cadena: barbacoa"]
+	LlaveAbiertaR_0 -> CadenaR_11
+	ComillasFR_11 [label=Comillas]
+	CadenaR_11 -> ComillasFR_11
+	ComaR_11 [label=Coma]
+	ComillasFR_11 -> ComaR_11
+	NumeroR_12 [label="Numero: 10.50"]
+	LlaveAbiertaR_0 -> NumeroR_12
+	ComaR_12 [label=Coma]
+	NumeroR_12 -> ComaR_12
+	NumeroR_13 [label="Numero: 20.00"]
+	LlaveAbiertaR_0 -> NumeroR_13
+	ComaR_13 [label=Coma]
+	NumeroR_13 -> ComaR_13
+	NumeroR_14 [label="Numero: 6"]
+	LlaveAbiertaR_0 -> NumeroR_14
+	LlaveCerradaR_14 [label="Llave Cerrada"]
+	NumeroR_14 -> LlaveCerradaR_14
+	LlaveAbiertaR_1 [label="Llave Abierta"]
+	CorcheteAbiertoR_0 -> LlaveAbiertaR_1
+	NumeroR_20 [label="Numero: 2"]
+	LlaveAbiertaR_1 -> NumeroR_20
+	ComaR_20 [label=Coma]
+	NumeroR_20 -> ComaR_20
+	ComillasIR_21 [label=Comillas]
+	LlaveAbiertaR_1 -> ComillasIR_21
+	CadenaR_21 [label="Cadena: salsa"]
+	LlaveAbiertaR_1 -> CadenaR_21
+	ComillasFR_21 [label=Comillas]
+	CadenaR_21 -> ComillasFR_21
+	ComaR_21 [label=Coma]
+	ComillasFR_21 -> ComaR_21
+	NumeroR_22 [label="Numero: 13.00"]
+	LlaveAbiertaR_1 -> NumeroR_22
+	ComaR_22 [label=Coma]
+	NumeroR_22 -> ComaR_22
+	NumeroR_23 [label="Numero: 16.00"]
+	LlaveAbiertaR_1 -> NumeroR_23
+	ComaR_23 [label=Coma]
+	NumeroR_23 -> ComaR_23
+	NumeroR_24 [label="Numero: 7"]
+	LlaveAbiertaR_1 -> NumeroR_24
+	LlaveCerradaR_24 [label="Llave Cerrada"]
+	NumeroR_24 -> LlaveCerradaR_24
+	LlaveAbiertaR_2 [label="Llave Abierta"]
+	CorcheteAbiertoR_0 -> LlaveAbiertaR_2
+	NumeroR_30 [label="Numero: 3"]
+	LlaveAbiertaR_2 -> NumeroR_30
+	ComaR_30 [label=Coma]
+	NumeroR_30 -> ComaR_30
+	ComillasIR_31 [label=Comillas]
+	LlaveAbiertaR_2 -> ComillasIR_31
+	CadenaR_31 [label="Cadena: mayonesa"]
+	LlaveAbiertaR_2 -> CadenaR_31
+	ComillasFR_31 [label=Comillas]
+	CadenaR_31 -> ComillasFR_31
+	ComaR_31 [label=Coma]
+	ComillasFR_31 -> ComaR_31
+	NumeroR_32 [label="Numero: 15.00"]
+	LlaveAbiertaR_2 -> NumeroR_32
+	ComaR_32 [label=Coma]
+	NumeroR_32 -> ComaR_32
+	NumeroR_33 [label="Numero: 18.00"]
+	LlaveAbiertaR_2 -> NumeroR_33
+	ComaR_33 [label=Coma]
+	NumeroR_33 -> ComaR_33
+	NumeroR_34 [label="Numero: 8"]
+	LlaveAbiertaR_2 -> NumeroR_34
+	LlaveCerradaR_34 [label="Llave Cerrada"]
+	NumeroR_34 -> LlaveCerradaR_34
+	LlaveAbiertaR_3 [label="Llave Abierta"]
+	CorcheteAbiertoR_0 -> LlaveAbiertaR_3
+	NumeroR_40 [label="Numero: 4"]
+	LlaveAbiertaR_3 -> NumeroR_40
+	ComaR_40 [label=Coma]
+	NumeroR_40 -> ComaR_40
+	ComillasIR_41 [label=Comillas]
+	LlaveAbiertaR_3 -> ComillasIR_41
+	CadenaR_41 [label="Cadena: mostaza"]
+	LlaveAbiertaR_3 -> CadenaR_41
+	ComillasFR_41 [label=Comillas]
+	CadenaR_41 -> ComillasFR_41
+	ComaR_41 [label=Coma]
+	ComillasFR_41 -> ComaR_41
+	NumeroR_42 [label="Numero: 14.00"]
+	LlaveAbiertaR_3 -> NumeroR_42
+	ComaR_42 [label=Coma]
+	NumeroR_42 -> ComaR_42
+	NumeroR_43 [label="Numero: 16.00"]
+	LlaveAbiertaR_3 -> NumeroR_43
+	ComaR_43 [label=Coma]
+	NumeroR_43 -> ComaR_43
+	NumeroR_44 [label="Numero: 4"]
+	LlaveAbiertaR_3 -> NumeroR_44
+	LlaveCerradaR_44 [label="Llave Cerrada"]
+	NumeroR_44 -> LlaveCerradaR_44
+	ImprimirIM_0 [label=Imprimir]
+	parent -> ImprimirIM_0
+	ParentesisAbiertoIM_0 [label="Parentesis Abierto"]
+	ImprimirIM_0 -> ParentesisAbiertoIM_0
+	ComillasIIM_0 [label=Comillas]
+	ParentesisAbiertoIM_0 -> ComillasIIM_0
+	CadenaIM_0 [label="Cadena: reporte de "]
+	ParentesisAbiertoIM_0 -> CadenaIM_0
+	ComillasFIM_0 [label=Comillas]
+	CadenaIM_0 -> ComillasFIM_0
+	ParentesisCerradoIM_0 [label="Parentesis Cerrado"]
+	ComillasFIM_0 -> ParentesisCerradoIM_0
+	PuntoComaIM_0 [label="Punto y Coma"]
+	ParentesisCerradoIM_0 -> PuntoComaIM_0
+	ImprimirIM_1 [label=Imprimir]
+	parent -> ImprimirIM_1
+	ParentesisAbiertoIM_1 [label="Parentesis Abierto"]
+	ImprimirIM_1 -> ParentesisAbiertoIM_1
+	ComillasIIM_1 [label=Comillas]
+	ParentesisAbiertoIM_1 -> ComillasIIM_1
+	CadenaIM_1 [label="Cadena: abarroteria"]
+	ParentesisAbiertoIM_1 -> CadenaIM_1
+	ComillasFIM_1 [label=Comillas]
+	CadenaIM_1 -> ComillasFIM_1
+	ParentesisCerradoIM_1 [label="Parentesis Cerrado"]
+	ComillasFIM_1 -> ParentesisCerradoIM_1
+	PuntoComaIM_1 [label="Punto y Coma"]
+	ParentesisCerradoIM_1 -> PuntoComaIM_1
+	ImprimirlnILN_2 [label=Imprimirln]
+	parent -> ImprimirlnILN_2
+	ParentesisAbiertoILN_2 [label="Parentesis Abierto"]
+	ImprimirlnILN_2 -> ParentesisAbiertoILN_2
+	ComillasIILN_2 [label=Comillas]
+	ParentesisAbiertoILN_2 -> ComillasIILN_2
+	CadenaILN_2 [label="Cadena: reporte de "]
+	ParentesisAbiertoILN_2 -> CadenaILN_2
+	ComillasFILN_2 [label=Comillas]
+	CadenaILN_2 -> ComillasFILN_2
+	ParentesisCerradoILN_2 [label="Parentesis Cerrado"]
+	ComillasFILN_2 -> ParentesisCerradoILN_2
+	PuntoComaILN_2 [label="Punto y Coma"]
+	ParentesisCerradoILN_2 -> PuntoComaILN_2
+	ImprimirlnILN_3 [label=Imprimirln]
+	parent -> ImprimirlnILN_3
+	ParentesisAbiertoILN_3 [label="Parentesis Abierto"]
+	ImprimirlnILN_3 -> ParentesisAbiertoILN_3
+	ComillasIILN_3 [label=Comillas]
+	ParentesisAbiertoILN_3 -> ComillasIILN_3
+	CadenaILN_3 [label="Cadena: abarroteria"]
+	ParentesisAbiertoILN_3 -> CadenaILN_3
+	ComillasFILN_3 [label=Comillas]
+	CadenaILN_3 -> ComillasFILN_3
+	ParentesisCerradoILN_3 [label="Parentesis Cerrado"]
+	ComillasFILN_3 -> ParentesisCerradoILN_3
+	PuntoComaILN_3 [label="Punto y Coma"]
+	ParentesisCerradoILN_3 -> PuntoComaILN_3
+	DatosD_4 [label=Datos]
+	parent -> DatosD_4
+	ParentesisAbiertoD_4 [label="Parentesis Abierto"]
+	DatosD_4 -> ParentesisAbiertoD_4
+	ParentesisCerradoD_4 [label="Parentesis Cerrado"]
+	ParentesisAbiertoD_4 -> ParentesisCerradoD_4
+	PuntoComaD_4 [label="Punto y Coma"]
+	ParentesisCerradoD_4 -> PuntoComaD_4
+	ConteoC_5 [label=Conteo]
+	parent -> ConteoC_5
+	ParentesisAbiertoC_5 [label="Parentesis Abierto"]
+	ConteoC_5 -> ParentesisAbiertoC_5
+	ParentesisCerradoC_5 [label="Parentesis Cerrado"]
+	ParentesisAbiertoC_5 -> ParentesisCerradoC_5
+	PuntoComaC_5 [label="Punto y Coma"]
+	ParentesisCerradoC_5 -> PuntoComaC_5
+	PromedioP_6 [label=Promedio]
+	parent -> PromedioP_6
+	ParentesisAbiertoP_6 [label="Parentesis Abierto"]
+	PromedioP_6 -> ParentesisAbiertoP_6
+	ComillasIP_6 [label=Comillas]
+	ParentesisAbiertoP_6 -> ComillasIP_6
+	CadenaP_6 [label="Cadena: stock"]
+	ParentesisAbiertoP_6 -> CadenaP_6
+	ComillasFP_6 [label=Comillas]
+	CadenaP_6 -> ComillasFP_6
+	ParentesisCerradoP_6 [label="Parentesis Cerrado"]
+	ComillasFP_6 -> ParentesisCerradoP_6
+	PuntoComaP_6 [label="Punto y Coma"]
+	ParentesisCerradoP_6 -> PuntoComaP_6
+	ContarsiCS_7 [label=Contarsi]
+	parent -> ContarsiCS_7
+	ParentesisAbiertoCS_7 [label="Parentesis Abierto"]
+	ContarsiCS_7 -> ParentesisAbiertoCS_7
+	ComillasICS_7 [label=Comillas]
+	ParentesisAbiertoCS_7 -> ComillasICS_7
+	CadenaCS_7 [label="Cadena: stock"]
+	ParentesisAbiertoCS_7 -> CadenaCS_7
+	ComillasFCS_7 [label=Comillas]
+	CadenaCS_7 -> ComillasFCS_7
+	ComaCS_7 [label=Coma]
+	ComillasFCS_7 -> ComaCS_7
+	NumeroCS_7 [label="Numero: 0"]
+	ComaCS_7 -> NumeroCS_7
+	ParentesisCerradoCS_7 [label="Parentesis Cerrado"]
+	NumeroCS_7 -> ParentesisCerradoCS_7
+	PuntoComaCS_7 [label="Punto y Coma"]
+	ParentesisCerradoCS_7 -> PuntoComaCS_7
+	SumarS_8 [label=Sumar]
+	parent -> SumarS_8
+	ParentesisAbiertoS_8 [label="Parentesis Abierto"]
+	SumarS_8 -> ParentesisAbiertoS_8
+	ComillasIS_8 [label=Comillas]
+	ParentesisAbiertoS_8 -> ComillasIS_8
+	CadenaS_8 [label="Cadena: stock"]
+	ParentesisAbiertoS_8 -> CadenaS_8
+	ComillasFS_8 [label=Comillas]
+	CadenaS_8 -> ComillasFS_8
+	ParentesisCerradoS_8 [label="Parentesis Cerrado"]
+	ComillasFS_8 -> ParentesisCerradoS_8
+	PuntoComaS_8 [label="Punto y Coma"]
+	ParentesisCerradoS_8 -> PuntoComaS_8
+	MaxM_9 [label=Max]
+	parent -> MaxM_9
+	ParentesisAbiertoM_9 [label="Parentesis Abierto"]
+	MaxM_9 -> ParentesisAbiertoM_9
+	ComillasIM_9 [label=Comillas]
+	ParentesisAbiertoM_9 -> ComillasIM_9
+	CadenaM_9 [label="Cadena: precio_venta"]
+	ParentesisAbiertoM_9 -> CadenaM_9
+	ComillasFM_9 [label=Comillas]
+	CadenaM_9 -> ComillasFM_9
+	ParentesisCerradoM_9 [label="Parentesis Cerrado"]
+	ComillasFM_9 -> ParentesisCerradoM_9
+	PuntoComaM_9 [label="Punto y Coma"]
+	ParentesisCerradoM_9 -> PuntoComaM_9
+	MinM_10 [label=Min]
+	parent -> MinM_10
+	ParentesisAbiertoMi_10 [label="Parentesis Abierto"]
+	MinM_10 -> ParentesisAbiertoMi_10
+	ComillasIMi_10 [label=Comillas]
+	ParentesisAbiertoMi_10 -> ComillasIMi_10
+	CadenaMi_10 [label="Cadena: precio_compra"]
+	ParentesisAbiertoMi_10 -> CadenaMi_10
+	ComillasFMi_10 [label=Comillas]
+	CadenaMi_10 -> ComillasFMi_10
+	ParentesisCerradoMi_10 [label="Parentesis Cerrado"]
+	ComillasFMi_10 -> ParentesisCerradoMi_10
+	PuntoComaMi_10 [label="Punto y Coma"]
+	ParentesisCerradoMi_10 -> PuntoComaMi_10
+	ExportarReporteER_11 [label="Exportar Reporte"]
+	parent -> ExportarReporteER_11
+	ParentesisAbiertoER_11 [label="Parentesis Abierto"]
+	ExportarReporteER_11 -> ParentesisAbiertoER_11
+	ComillasIER_11 [label=Comillas]
+	ParentesisAbiertoER_11 -> ComillasIER_11
+	CadenaER_11 [label="Cadena: reporte html de abarroteria"]
+	ParentesisAbiertoER_11 -> CadenaER_11
+	ComillasFER_11 [label=Comillas]
+	CadenaER_11 -> ComillasFER_11
+	ParentesisCerradoER_11 [label="Parentesis Cerrado"]
+	ComillasFER_11 -> ParentesisCerradoER_11
+	PuntoComaER_11 [label="Punto y Coma"]
+	ParentesisCerradoER_11 -> PuntoComaER_11
+}
